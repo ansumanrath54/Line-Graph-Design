@@ -49,14 +49,13 @@ class _MyHomePageState extends State<MyHomePage> {
                         xValueMapper: (ChartData data, _) => data.x,
                         yValueMapper: (ChartData data, _) => data.y,
                         enableTooltip: true,
-                        color: Colors.red,
                         borderWidth: 7,
-                        borderColor: Colors.red,
+                        borderColor: Color(0xffDC3148),
                         gradient: LinearGradient(
                           begin: Alignment.topCenter,
                           end:  Alignment.bottomCenter,
                           colors: [
-                            Colors.red,
+                            Color(0xffDC3148),
                             Colors.white
                           ],)
                 )],
